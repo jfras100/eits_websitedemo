@@ -1,0 +1,49 @@
+@font-face {
+    font-family: customFont;
+    src: url(Futura_Round.ttf);
+    
+}
+
+body {
+    font-family: customFont;
+    background: #f0f0e5;
+    
+}
+#tour_table {
+    align-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: customFont;
+    letter-spacing: .4em;
+    text-align: center;
+}
+
+button {
+    font-family: customFont;
+    border-radius: 40px;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #21212c;
+    color: azure;
+}
+
+table { border-collapse:collapse; }
+
+td {
+    padding: 10px;
+    
+}
+
+tr:hover {
+    background-color: #FFFF99; 
+    background-color: #21212c;
+    border: solid black 1px;
+}
+
+
+

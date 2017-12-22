@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title>Explosions in the Sky</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,
+             initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+        <link href="fontawesome-free-5.0.2/web-fonts-with-css/css/styles.css" rel="stylesheet">
+        <script type="text/javascript">
+         $(document).ready(function() {
+
+         //this code create the hover effect over the row's in every table
+         $('table tr').hover(function() {
+         $(this).addClass('tr_hover');
+         }, function() {
+         $(this).removeClass('tr_hover');
+         });
+
+        })  
+         
+        </script>
+
+      
+   </head>
+   <body>
+       
+       <div style="width:100%">
+           <h1>TOUR DATES</h1>
+           <table id="tour_table"style="width:100%">
+              <tr id="tour_row">
+                <td>Mar 24, 2018</td>
+                <td>Bloom Music Festival</td> 
+                <td>Houston, TX</td>
+                <td class="bit-offers bit-button"><button id="tour_button"type="button" class="btn btn-link">TICKETS &amp; MORE</button></td>
+              </tr>
+              <tr>
+                <td>Mar 24, 2018</td>
+                <td>Bloom Music Festival</td> 
+                <td>Houston, TX</td>
+                <td><button type="button" class="btn btn-link">TICKETS &amp; MORE</button></td>
+              </tr>
+            </table>
+       </div> 
+        
+      
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.js"></script>
+   </body>
+</html>
